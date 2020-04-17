@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sahayak</title>
+  <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Poppins|Comfortaa&display=swap" rel="stylesheet">
+ <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- css file link -->
+  <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <section id="home" class="colored">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Sahayak</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="help.html">Help me!</a></a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+    </div>
+    <!-- CAROUSEL -->
+    <div class="container-fluid colored ">
+        <div class="slider">
+        <div class="slide active">
+          <div class= "row">
+            <div class="col-lg-4 doctor-img">
+              <img src="images/doctor.png" alt="doctor image">  <!-- Icon made by https://freeicons.io/profile/3031 from www.freeicons.io -->
+            </div>
+            <div class="col-lg-8 textdiv">
+              <p class="hometext">Are you Sick? And no Doctor is available in nearby OPD.</p>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="slide">
+          <div class="row">
+            <div class="col-lg-6">
+               <img class="round-image"src="images/grocery.jpg" alt="grocery">
+            </div>
+
+            <div class="col-lg-6 grocerytext">
+              <p class="hometext textdivg">Do you need any essential item? But your area is sealed.</p>
+            </div>
+          </div>
+       </div>
+        <div class="slide">
+         <div class="row">
+           <center class="padding">
+             <p class="hometext">Don't panic we are here to help you in this period of lockdown click the button below or on top-right corner and explain your problem to us.</p>
+             <button class="btn btn-danger btn-lg help" type="button" name="button">Help me!</button>
+           </center>
+         </div>
+        </div>
+        </div>
+
+         <a class="prev">&#10094;</a>
+         <a class="next">&#10095;</a>
+    </div>
+    </section>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
