@@ -48,26 +48,26 @@
       <div class="form">
 
 
-            <form class="" action="index.html" method="post">
+            <form class="" action="/" method="post">
               <label class = "formlabel" for="fname">Full Name:</label><br>
-              <input class="form-input" type="text" name="fname" placeholder="e.g-Ramesh Chauchan">
+              <input id="fname" class="form-input" type="text" name="fname" placeholder="e.g-Ramesh Chauchan" required active>
               <label class = "formlabel" for="gender">Gender:</label><br>
-              <input type="radio" name="gender" value="male">
+              <input id="Male" type="radio" name="gender" value="male">
               <label for="Male" class="form-input-radio">Male</label><br>
-              <input type="radio" name="gender" value="female">
-              <label for="Male" class="form-input-radio">Female</label><br>
-              <input type="radio" name="gender" value="other">
-              <label for="Male" class="form-input-radio">Other</label><br>
+              <input id="Female" type="radio" name="gender" value="female">
+              <label for="Female" class="form-input-radio">Female</label><br>
+              <input id="other" type="radio" name="gender" value="other">
+              <label for="other" class="form-input-radio">Other</label><br>
               <label class = "formlabel" for="phoneNumber">Phone Number:</label><br>
-              <input class="form-input" type="tel" name="phoneNumber" placeholder="e.g-99998XXXXX">
+              <input id="phoneNumber" class="form-input" type="tel" name="phoneNumber" placeholder="e.g-99998XXXXX" required>
               <label class = "formlabel" for="aadharCard">Aadhar Card Number:</label><br>
-              <input class="form-input" type="number" name="aadharCard" placeholder="12 digits UID number">
+              <input id="phoneNumber" class="form-input" type="number" name="aadharCard" placeholder="12 digits UID number" required>
               <label class = "formlabel" for="address">Residential Address:</label><br>
-              <input class="form-input" type="text" name="address" placeholder="e.g-House number,district,city,postal code">
+              <input id="address" class="form-input" type="text" name="address" placeholder="e.g-House number,district,city,postal code" required>
               <label class = "formlabel" for="email">Email Address:</label><br>
-              <input class="form-input" type="email" name="email" placeholder="e.g-abcdef@xyz.com">
+              <input id="email" class="form-input" type="email" name="email" placeholder="e.g-abcdef@xyz.com" required>
               <label class="formlabel" for="problem">Problem Description:</label>
-              <textarea rows="5" class="form-input" name="problem" placeholder="Describe your problem here......"></textarea>
+              <textarea id ="problem" rows="5" class="form-input" name="problem" placeholder="Describe your problem here......" required></textarea>
               <center>
                 <button class="form-submit-button" type="submit" name="button">Submit</button>
               </center>
